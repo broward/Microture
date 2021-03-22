@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "base.json",
+  "title": "Base",
+  "description": "basic object",
+  "type": "object",
+  "properties": {
+    "tracking_id": {
+      "description": "",
+      "type": "integer"
+    }
+  },
+  "required": [ "tracking_id" ]
+}
